@@ -37,7 +37,6 @@ Follow the prompts to provide:
 ## Example Output
 
 ### Input Prompts
-```plaintext
 ![Input Prompts](assets/InputPrompts.jpg)
 
 
