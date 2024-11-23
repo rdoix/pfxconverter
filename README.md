@@ -38,45 +38,12 @@ Follow the prompts to provide:
 
 ### Input Prompts
 ```plaintext
-Enter the PFX output file name.
-Example: /home/user/output.pfx
->> /home/user/output.pfx
+![Input Prompts](assets/InputPrompts.jpg)
 
-Do you have an intermediate certificate? (y/N)
-Example: /etc/ssl/certs/ca-bundle.crt, /etc/ssl/certs/intermediate.crt
->> y
-
-Enter the path to the intermediate certificate.
->> /etc/ssl/certs/ca-bundle.crt
-
-Enter the path to the private key.
-Example: /etc/ssl/private/privatekey.pem, /etc/ssl/private/server.key
->> /etc/ssl/private/privatekey.pem
-
-Enter the path to the public certificate.
-Example: /etc/ssl/certs/certificate.crt, /etc/ssl/certs/certificate.pem
->> /etc/ssl/certs/certificate.crt
-
-Converting certificate to PFX...
-/home/user/output.pfx has been successfully created!
-```
 
 ### Validation Output
-```plaintext
-Would you like to validate the PFX file? (y/N)
->> y
+![Validation Output](assets/ValidationOutput.jpg)
 
-Validating the generated PFX file...
-Enter the password used to import the PFX file:
-PFX file validation successful!
-==================================
-Certificate Information:
-  Domain (CN):    *.example.com
-  Issuer:         Sectigo RSA Domain Validation Secure Server CA
-  Valid From:     Nov 22 00:00:00 2024 GMT
-  Valid Until:    Dec 23 23:59:59 2025 GMT
-==================================
-```
 
 ## Notes
 - If any step fails, the script will display an error message.
